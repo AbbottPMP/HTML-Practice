@@ -51,7 +51,6 @@ fucntion.update() {
                     reset()
               }
         }  
-        
         if(p2y+ph/2<by) {
               p2y+=als;
         }else{
@@ -59,7 +58,6 @@ fucntion.update() {
             p2y-=als;
         }    
         }    
-
         cc.fillStyle='black';
         cc.fillRect(0,0,c.width,c.height);
         cc.fillStyle='white';
